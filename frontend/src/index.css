@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.emoji-picker-react {
+  @apply bg-white dark:bg-gray-800
+  }
+
+  .emoji-picker-react .emoji-search {
+    @apply dark:bg-gray-800  dark:text-white dark:border-gray-700 dark:focus:border-sky-500
+    }
+  
+    .emoji-picker-react .emoji-categories  {
+      @apply dark:bg-gray-800;
+      }
+
+      .emoji-picker-react .emoji-scroll-wrapper::-webkit-scrollbar {
+        @apply dark:bg-gray-800 w-5
+      }
+
+      .emoji-picker-react .emoji-categories button  {
+        @apply contrast-0
+        }
+
+      .emoji-picker-react .emoji-scroll-wrapper .emoji-group::before {
+        @apply dark:bg-gray-800  dark:text-white
+      }
+
+      /* CSS */
+/* For Webkit-based browsers (Chrome, Safari, Edge) */
+.overflow-auto::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb {
+  background-color: rgba(59, 130, 246, 0.5); /* You can adjust the alpha (transparency) value */
+  border-radius: 9999px; /* This will make the thumb fully rounded */
+}
+
+.overflow-auto::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(59, 130, 246, 0.7); /* Adjust the alpha value for hover state */
+}
+
+.overflow-auto::-webkit-scrollbar-track {
+  background-color: #edf2f7;
+}
+
+/* For Firefox */
+.overflow-auto {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(59, 130, 246, 0.5) #edf2f7; /* You can adjust the alpha value */
+}
+
+.overflow-auto:hover {
+  scrollbar-color: rgba(59, 130, 246, 0.7) #edf2f7; /* Adjust the alpha value for hover state */
+}
+
+
+/* For Webkit-based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(145deg, rgba(59, 130, 246, 0.8), rgba(81, 191, 250, 0.8)); /* Blue gradient for attractiveness */
+  border-radius: 20px; /* Increased border-radius for more rounded appearance */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(145deg, rgba(59, 130, 246, 1), rgba(81, 191, 250, 1)); /* Adjusted gradient for hover state */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #edf2f7; /* Track color */
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: linear-gradient(145deg, rgba(59, 130, 246, 0.8), rgba(81, 191, 250, 0.8)) #edf2f7; /* Blue gradient thumb with track color */
+}
+
+html:hover {
+  scrollbar-color: linear-gradient(145deg, rgba(59, 130, 246, 1), rgba(81, 191, 250, 1)) #edf2f7; /* Adjusted gradient for hover state */
+}
+
+
+  @layer base {
+    body {
+      @apply bg-white dark:bg-gray-900;
+    }
+  }
