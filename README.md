@@ -27,6 +27,7 @@ To run this project locally, follow these steps:
 1. Clone the repository.
 2. Install the dependencies:
    - Navigate to the `frontend` directory and run `npm install`.
+   - To run in the `build` environment in the `frontend` go to that directory and run `npm run build`
    - Navigate to the `server` directory and run `npm install`.
 3. Set up Firebase:
    - Go to the [Firebase Console](https://console.firebase.google.com/).
@@ -39,9 +40,11 @@ To run this project locally, follow these steps:
    - In the `frontend` directory, create a new file named `.env` based on the `Frontend.env.example` file.
    - Update the values of the environment variables in the `.env` file with your Firebase configuration details.
    - In the root directory, create a new file named `.env` based on the `Backend.env.example` file.
-   - Update the values of the environment variables in the `.env` file according to your preferences. For example, set the `PORT` variable to specify the 3001 port for the server and set `MONGODB_URI` to your MongoDB connection URI.
+   - Update the values of the environment variables in the `.env` file according to your preferences.
+   - For example, set the `PORT` variable to specify the 3001 port for the server and set `MONGODB_URI` to your MongoDB connection URI.
 5. Run the server:
    - Navigate to the `server` directory and run `npm run start`.
 6. Run the client:
-   - Navigate to the `frontend` directory and run `npm start`.
+   - Navigate to the `frontend` directory and run `npm start` to start server on development.
+   -  Navigate to the `frontend` directory and run `-s build` to start server on production.
 7. The application will be accessible at `http://localhost:3001`.
