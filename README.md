@@ -2,13 +2,17 @@
 
 Welcome to our real-time chat application! Experience seamless communication with friends, family, and colleagues with our feature-rich platform.
 
+---
+
 ## 💻 Technologies Used
 
-- React and TailwindCSS for the frontend
-- Firebase for authentication
-- Node/Express for creating API endpoints
-- MongoDB for storing chat room members and their messages
-- Socket.io for making the app real-time
+🖥️ Frontend: React and TailwindCSS  
+🔐 Authentication: Firebase  
+🚀 Backend: Node/Express  
+🗃️ Database: MongoDB  
+🔌 Real-time Communication: Socket.io  
+
+---
 
 ## 🎥 Demo
 
@@ -16,23 +20,29 @@ Before diving in, check out our YouTube demo to see the app in action.
 
 [YouTube Demo](https://youtu.be/PJn2cUT3H-k)
 
+---
+
 ## 🌐 Live Demo
 
 Ready to experience the app firsthand? Access our live demo to explore its functionalities.
 
 [Live Demo](https://chat-app-frontend-amber.vercel.app)
 
+---
+
 ## ✨ Basic Features
 
-- Users can register/login via email and password.
-- Profile page where users can update their avatar and display name.
-- Generate random avatars using [robohash API](https://robohash.org)
-- Users can create a room to chat with others.
-- Search functionality.
-- Chatting is real-time.
-- Emoji picker is also integrated.
-- Dark mode can be enabled.
-- Date fns for last sent message time to view.
+✅ Users can register/login via email and password.  
+👤 Profile page where users can update their avatar and display name.  
+🤖 Generate random avatars using [robohash API](https://robohash.org)  
+🗨️ Users can create a room to chat with others.  
+🔍 Search functionality.  
+🕒 Chatting is real-time.  
+😀 Emoji picker is also integrated.  
+🌙 Dark mode can be enabled.  
+📅 Date fns for last sent message time to view.  
+
+---
 
 ## 🛠️ Getting Started
 
