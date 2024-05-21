@@ -14,7 +14,7 @@ Welcome to our real-time chat application! Experience seamless communication wit
 
 Before diving in, check out our YouTube demo to see the app in action. 
 
-[YouTube Demo](link_to_youtube_demo)
+[YouTube Demo](https://youtu.be/PJn2cUT3H-k)
 
 ## 🌐 Live Demo
 
