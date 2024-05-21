@@ -20,7 +20,7 @@ Before diving in, check out our YouTube demo to see the app in action.
 
 Ready to experience the app firsthand? Access our live demo to explore its functionalities.
 
-[Live Demo](link_to_live_demo)
+[Live Demo]([link_to_live_demo](https://chat-app-frontend-amber.vercel.app))
 
 ## ✨ Basic Features
 
