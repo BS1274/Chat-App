@@ -67,7 +67,7 @@ To run this project locally, follow these steps:
    - Update the values of the environment variables in the `.env` file according to your preferences.
    - For example, set the `PORT` variable to specify the 3001 port for the server and set `MONGODB_URI` to your MongoDB connection URI.
 5. Run the server:
-   - Navigate to the `server` directory and run `npm run start`.
+   - Navigate to the `server` directory and run `node index.js`.
 6. Run the client:
    - Navigate to the `frontend` directory and run `npm start` to start server on development.
    -  Navigate to the `frontend` directory and run `-s build` to start server on production.
