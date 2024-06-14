@@ -54,7 +54,7 @@ mongoose.connection.on("connected", () => {
   // Set up Socket.IO server
   const io = new Server(server, {
     cors: {
-      origin: "http://localhost:3001",
+      origin: "https://chat-app-backend-so3s.onrender.com/",
       credentials: true,
     },
   });
