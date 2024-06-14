@@ -59,7 +59,7 @@ const handleAxiosRequest = async (requestPromise) => {
     const res = await requestPromise;
     return res.data;
   } catch (error) {
-    console.error("Axios request error:", error);
+    console.error("Error:", error.response?.data ?? error.message);
     return null;
   }
 };
@@ -78,6 +78,14 @@ export const getUser = async (userId) => {
   if (!header) return null;
 
   return handleAxiosRequest(axios.get(`${baseURL}/user/${userId}`, header));
+};
+
+// API function to get multiple users
+export const getUsers = async (users) => {
+  const header = await createHeader();
+  if (!header) return null;
+
+  return handleAxiosRequest(axios.get(`${baseURL}/user/users`, users, header));
 };
 
 // API function to get chat rooms of a user
