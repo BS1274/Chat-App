@@ -2,7 +2,7 @@ import axios from "axios";
 import auth from "../config/firebase";
 import { io } from "socket.io-client";
 
-const baseURL = "http://localhost:3001/api";
+const baseURL = "https://chat-app-backend-so3s.onrender.com/api";
 let socket;
 
 // Function to retrieve user token
@@ -24,7 +24,7 @@ export const initiateSocketConnection = async () => {
   if (!token) return null; // Handle case when user token is not available
 
   try {
-    socket = io("http://localhost:3001", {
+    socket = io("https://chat-app-backend-so3s.onrender.com/", {
       auth: { token },
     });
 
